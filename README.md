@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-[Published Page](https://litianqing2887.github.io/Lab2_Starter/)
+# Lab 3
+[Published Page](https://litianqing2887.github.io/sp23-cse110-lab3/)
