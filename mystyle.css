@@ -44,6 +44,7 @@
     }
 }
 
+/* Pseudo-class Selector */
 button:hover {
     color:green;
 }
@@ -74,4 +75,39 @@ html {
 /* Universal Selector */
 * {
     margin:0;
+}
+
+/* Element Selector */
+h1 {
+    color: pink;
+}
+
+/* Attribute Selector */
+li[class] {
+    font-size: large;
+}
+
+/* Selector List */
+h1, h2 {
+    font-size: 200%;
+}
+
+header h3 {
+    color: grey;
+}
+
+header > h2 {
+    font-weight: 200;
+}
+
+main + footer {
+    background-position: 2%;
+}
+
+h2 ~ p {
+    align-self: auto;
+}
+
+h3.flex {
+    font-weight: 150%;
 }
