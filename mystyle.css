@@ -1,0 +1,77 @@
+/* Class Selector */
+.text {
+    color:#00f0f0;
+    background-color: rgb(127,127,0);
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+#unfinished {
+    color:purple;
+    background-color: hsl(24,57,80);
+    text-align: end;
+    text-decoration: dotted;
+    display: flex;
+    position: static;
+}
+
+#agenda {
+    margin-top: 0mm;
+    margin-bottom: 1mm;
+    margin-left: 1in;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 5ch;
+    padding-left: 3rem;
+    padding-right: 6ex;
+    border-style: dotted;
+    border-color: antiquewhite;
+    border-width: 2em;
+    border-radius: 50px;
+}
+
+#newthings {
+    position: relative;
+    top: 4px;left: 4px;
+}
+
+@media screen and (min-width: 900px) {
+    #media {
+      padding: 1rem 3rem;
+    }
+}
+
+button:hover {
+    color:green;
+}
+
+button:active {
+    color: yellow;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [first] 200px [line2] 150px [line3] auto [end];
+    grid-template-rows: [row1-start] 125% [row1-end] 200p [last-line];
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Universal Selector */
+* {
+    margin:0;
+}
